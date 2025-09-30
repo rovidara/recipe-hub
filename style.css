@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:#ff6b6b;
+    max-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: calc(100vh - 40px);
+    margin: 0;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border-radius: 30px
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 2rem;
+    justify-content: center;
+}
+
+.left-col{
+    justify-items: center;
+}
+
+h2{
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
