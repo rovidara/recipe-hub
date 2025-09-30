@@ -28,6 +28,12 @@ h2{
     padding-top: 30px;
     transform: translate(-50%, -50%);
     color: #ff6b6b;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    top: 1px;
+    left: 40px;
+    transform: none;
 }
 
 .image{
@@ -42,8 +48,6 @@ h2{
 
 .text {
       position: absolute;
-      top: 50%;      /* vertical position */
-      left: 50%;     /* horizontal position */
       transform: translate(-50%, -50%);
       color: black;
       font-size: 24px;
@@ -51,7 +55,7 @@ h2{
       padding: 10px;
       border-radius: 8px;
       text-align: left;
-      top: 300px;
+      top: 200px;
       left: 40px;
       transform: none;
     }
@@ -63,7 +67,7 @@ h2{
       transform: translateX(-50%);
       padding: 10px 20px;
       border-radius: 6px;
-      font-size: 30px;
+      font-size: 20px;
     }
 
     nav ul {
@@ -82,4 +86,9 @@ h2{
 
     nav ul li a:hover {
       color:black;
+    }
+
+    .big{
+        background-color: white;
+        border-radius: 30px;
     }
